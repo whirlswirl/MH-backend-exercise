@@ -1,0 +1,38 @@
+query {
+	commit(
+		owner: "whirlswirl"
+		repo: "aws-ffmpeg-lambda-mov-to-mp4-node"
+		sha: "1f909eb8c331dff266a1389152bdafbc682e4638"
+	) {
+		sha
+		node_id
+		url
+		html_url
+		author {
+			name
+			email
+			date
+		}
+		committer {
+			name
+			email
+			date
+		}
+		tree {
+			sha
+			url
+		}
+		message
+		parents {
+			sha
+			url
+			html_url
+		}
+		verification {
+			verified
+			reason
+			signature
+			payload
+		}
+	}
+}
